@@ -1,0 +1,28 @@
+{
+  "name": "@miloter/sqllikecompiler",
+  "version": "1.0.0",
+  "description": "Implementation of a text compiler to a format suitable for making SQL queries with the 'like' operator.",
+  "main": "sql-like-compiler.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sql",
+    "like",
+    "compiler"
+  ],
+  "author": "miloter",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 13.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miloter/sqllikecompiler.git"
+  },
+  "dependencies": {
+    "@miloter/scanner": "^1.0.0",
+    "@miloter/simil-words": "^1.0.1"
+  }
+}
