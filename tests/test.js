@@ -1,4 +1,4 @@
-import SqlLikeCompiler from './sql-like-compiler.js';
+import SqlLikeCompiler from '../sql-like-compiler.js';
 
 const comp = new SqlLikeCompiler('title');
 
